@@ -37,11 +37,14 @@ int main()
 int palindromeLength(int i, int j)
 {
 	// 同位置回傳1
-	if (i == j) return 1;
+	if (i == j) 
+		return 1;
 	// 顛倒不計算
-	if (i > j) return 0;
+	if (i > j) 
+		return 0;
 	// 值已經計算過
-	if (len[i][j] != -1) return len[i][j];
+	if (len[i][j] != -1) 
+		return len[i][j];
 
 	// 兩端相等
 	if (str[i] == str[j])

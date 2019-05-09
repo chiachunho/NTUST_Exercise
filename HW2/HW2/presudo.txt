@@ -1,0 +1,37 @@
+palindromeLength(int i, int j)
+{
+	// 同位置回傳1
+	if i == j return 1;
+	// 顛倒不計算
+	if (i > j) return 0;
+	// 值已經計算過
+	if (len[i][j] != -1) return len[i][j];
+
+	// 兩端相等
+	if (str[i] == str[j])
+	{
+		len[i][j] = palindromeLength(i + 1, j - 1) + 2;
+		rec[i][j] = 0;
+	}
+	// 兩端不相等
+	else
+	{
+		int left = palindromeLength(i + 1, j);
+		int right = palindromeLength(i, j - 1);
+
+		// 紀錄刪左端
+		if (left > right)
+		{
+			len[i][j] = left;
+			rec[i][j] = 1;
+		}
+
+		// 紀錄刪右端
+		else
+		{
+			len[i][j] = right;
+			rec[i][j] = 2;
+		}
+	}
+	return len[i][j];
+}
