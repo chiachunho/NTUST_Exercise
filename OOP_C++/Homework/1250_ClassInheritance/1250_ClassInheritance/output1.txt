@@ -1,0 +1,6 @@
+Which contains C++?
+ Email1
+ File1
+After assignment file2=file1 and file2.setPathname("c:"): 
+File1's path = file.txt
+File2's path = c:

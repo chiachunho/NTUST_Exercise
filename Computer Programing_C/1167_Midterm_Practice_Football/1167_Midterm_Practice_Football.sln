@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1167_Midterm_Practice_Football", "1167_Midterm_Practice_Football\1167_Midterm_Practice_Football.vcxproj", "{A3D4C0F1-73B2-4514-BC0C-9ACD52BB6CDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3D4C0F1-73B2-4514-BC0C-9ACD52BB6CDD}.Debug|x64.ActiveCfg = Debug|x64
+		{A3D4C0F1-73B2-4514-BC0C-9ACD52BB6CDD}.Debug|x64.Build.0 = Debug|x64
+		{A3D4C0F1-73B2-4514-BC0C-9ACD52BB6CDD}.Debug|x86.ActiveCfg = Debug|Win32
+		{A3D4C0F1-73B2-4514-BC0C-9ACD52BB6CDD}.Debug|x86.Build.0 = Debug|Win32
+		{A3D4C0F1-73B2-4514-BC0C-9ACD52BB6CDD}.Release|x64.ActiveCfg = Release|x64
+		{A3D4C0F1-73B2-4514-BC0C-9ACD52BB6CDD}.Release|x64.Build.0 = Release|x64
+		{A3D4C0F1-73B2-4514-BC0C-9ACD52BB6CDD}.Release|x86.ActiveCfg = Release|Win32
+		{A3D4C0F1-73B2-4514-BC0C-9ACD52BB6CDD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1841CD5E-D633-4E1D-9A42-C1D2BFC61D48}
+	EndGlobalSection
+EndGlobal

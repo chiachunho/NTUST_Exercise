@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1249_WordGame", "1249_WordGame\1249_WordGame.vcxproj", "{84F39EBC-1147-4E7A-9274-3A8209AF3D92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84F39EBC-1147-4E7A-9274-3A8209AF3D92}.Debug|x64.ActiveCfg = Debug|x64
+		{84F39EBC-1147-4E7A-9274-3A8209AF3D92}.Debug|x64.Build.0 = Debug|x64
+		{84F39EBC-1147-4E7A-9274-3A8209AF3D92}.Debug|x86.ActiveCfg = Debug|Win32
+		{84F39EBC-1147-4E7A-9274-3A8209AF3D92}.Debug|x86.Build.0 = Debug|Win32
+		{84F39EBC-1147-4E7A-9274-3A8209AF3D92}.Release|x64.ActiveCfg = Release|x64
+		{84F39EBC-1147-4E7A-9274-3A8209AF3D92}.Release|x64.Build.0 = Release|x64
+		{84F39EBC-1147-4E7A-9274-3A8209AF3D92}.Release|x86.ActiveCfg = Release|Win32
+		{84F39EBC-1147-4E7A-9274-3A8209AF3D92}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAA17D07-64A6-4598-AA87-6758CB12175F}
+	EndGlobalSection
+EndGlobal

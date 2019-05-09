@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DateFormatConversion", "DateFormatConversion\DateFormatConversion.vcxproj", "{0F9DE624-009B-4338-B594-118509C78025}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F9DE624-009B-4338-B594-118509C78025}.Debug|x64.ActiveCfg = Debug|x64
+		{0F9DE624-009B-4338-B594-118509C78025}.Debug|x64.Build.0 = Debug|x64
+		{0F9DE624-009B-4338-B594-118509C78025}.Debug|x86.ActiveCfg = Debug|Win32
+		{0F9DE624-009B-4338-B594-118509C78025}.Debug|x86.Build.0 = Debug|Win32
+		{0F9DE624-009B-4338-B594-118509C78025}.Release|x64.ActiveCfg = Release|x64
+		{0F9DE624-009B-4338-B594-118509C78025}.Release|x64.Build.0 = Release|x64
+		{0F9DE624-009B-4338-B594-118509C78025}.Release|x86.ActiveCfg = Release|Win32
+		{0F9DE624-009B-4338-B594-118509C78025}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {388C5793-5C1E-483A-B3A4-1A23B7C694D3}
+	EndGlobalSection
+EndGlobal

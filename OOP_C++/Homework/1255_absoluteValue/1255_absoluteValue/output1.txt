@@ -1,0 +1,3 @@
+Absolute value of 10, 20 is 10
+Absolute value of 5.5, 3.1 is 2.4
+Absolute value of A, C is 2

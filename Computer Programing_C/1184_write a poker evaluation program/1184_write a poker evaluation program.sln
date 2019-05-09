@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1184_write a poker evaluation program", "1184_write a poker evaluation program\1184_write a poker evaluation program.vcxproj", "{E046730C-12BA-47D9-A9F9-C5BBDF38CDBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E046730C-12BA-47D9-A9F9-C5BBDF38CDBB}.Debug|x64.ActiveCfg = Debug|x64
+		{E046730C-12BA-47D9-A9F9-C5BBDF38CDBB}.Debug|x64.Build.0 = Debug|x64
+		{E046730C-12BA-47D9-A9F9-C5BBDF38CDBB}.Debug|x86.ActiveCfg = Debug|Win32
+		{E046730C-12BA-47D9-A9F9-C5BBDF38CDBB}.Debug|x86.Build.0 = Debug|Win32
+		{E046730C-12BA-47D9-A9F9-C5BBDF38CDBB}.Release|x64.ActiveCfg = Release|x64
+		{E046730C-12BA-47D9-A9F9-C5BBDF38CDBB}.Release|x64.Build.0 = Release|x64
+		{E046730C-12BA-47D9-A9F9-C5BBDF38CDBB}.Release|x86.ActiveCfg = Release|Win32
+		{E046730C-12BA-47D9-A9F9-C5BBDF38CDBB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD2E9DBD-0EF8-4A84-AF33-7887B52CA46C}
+	EndGlobalSection
+EndGlobal

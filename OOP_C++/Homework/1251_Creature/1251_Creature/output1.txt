@@ -1,0 +1,9 @@
+Human attacks for 20 points!
+
+Elf attacks for 7 points!
+
+Balrog attacks for 42 points!
+Balrog speed attack inflicts 28 additional damage points!
+
+Cyberdemon attacks for 26 points!
+

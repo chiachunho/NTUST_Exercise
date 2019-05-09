@@ -1,0 +1,5 @@
+Enter your username (8 letters only)
+Enter your username (8 letters only)
+Enter your username (8 letters only)
+Enter your password (at least 8 characters and at least one non-letter)
+Your username is abcdefgh and your password is: 123456789789789
