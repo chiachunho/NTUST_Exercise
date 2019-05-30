@@ -47,12 +47,13 @@ The test case number should be printed before the answer.
 1 NO
 2 YES
 ```
+---
 ## 題目解析
 **Singly Connected** 的定義是**任兩點只有一條路徑能到達**。
 
-於是我們利用 **DFS** 的特性下去處理，當如果做完的 DFS 的 Graph 中有出現 **forward Edge 或是 cross Edge** 的話，表示兩點間有其他路徑存在，則**Singly Connected不成立**。
+於是我們利用 **DFS** 的特性下去處理，當如果做完的 DFS 的 Graph 中有出現 **forward edge 或是 cross edge** 的話，表示兩點間有其他路徑存在，則 **Singly Connected 不成立**。
 
-因此我們要以每個點為 root 開始走訪過一次 DFS，看是否在每個情況中是否都不會出現 forward Edge 和 cross Edge，Singly Connected才成立。
+因此我們要以每個點為 root 開始走訪過一次 DFS，看是否在每個情況中是否都不會出現 forward edge 和 cross edge，Singly Connected 才成立。
 
 在 DFS 中提到，當我們第一次走訪 edge (u, v)，我們可以從v點來得知該 edge 的特性：
 1.	若 v 點為白色：表示該 edge 為 tree edge（灰底線）。
@@ -66,7 +67,7 @@ The test case number should be printed before the answer.
 ![](https://i.imgur.com/1ndQOUT.png)
 > 測資 2 中以點 0 為 DFS 起點，並無出現重複路徑
 
-因此我們知道如何判斷 Graph 中是否有 forward Edge 或是 cross Edge，我們稍微修改基本DFS的流程，當我們在走訪該點所連接的其他點的過程中，如果發現點是白色的話，我們會紀錄 parent 和再呼叫一次 DFS Visit。
+因此我們知道如何判斷 Graph 中是否有 forward edge 或是 cross edge，我們稍微修改基本 DFS 的流程，當我們在走訪該點所連接的其他點的過程中，如果發現點是白色的話，我們會紀錄 parent 和再呼叫一次 DFS Visit。
 
 在這裡我們加上另一種情況，也就是用來**判斷是否為 forward 或 cross edge 的情況**，當點是黑色的話，我們回傳 **`FALSE`**，並中斷遞迴回到主程式，加快程式。
 
