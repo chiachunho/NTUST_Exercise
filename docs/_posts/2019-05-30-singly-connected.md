@@ -62,11 +62,9 @@ The test case number should be printed before the answer.
 ![](https://i.imgur.com/vIQLtsy.png)
 
 > 測資 1 中以點 3 為 DFS 起點，並出現 cross edge 和重複路徑
-> [color=#b23518]
 
 ![](https://i.imgur.com/1ndQOUT.png)
 > 測資 2 中以點 0 為 DFS 起點，並無出現重複路徑
-> [color=#b23518]
 
 因此我們知道如何判斷 Grap 中是否有 Forward Edge 或是 Cross Edge，我們稍微修改基本DFS的流程，當我們在走訪該點所連接的其他點的過程中，如果發現點是白色的話，我們會紀錄 parent 和再呼叫一次 DFS Visit。
 
