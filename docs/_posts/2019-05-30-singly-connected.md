@@ -2,7 +2,7 @@
 layout: post
 title:  "Singly Connected problem"
 category: Algorithms
-date: 2019-05-29 21:06:26 +0800
+date: 2019-05-30 21:06:26 +0800
 description:
 ---
 
