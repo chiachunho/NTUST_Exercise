@@ -10,8 +10,8 @@ title: Jeffery's Note
 email: chiachun2491@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   做完一些作業或題目後，很閒的時候筆記起來。
-baseurl: "/NTUST_Exercise" # the subpath of your site, e.g. /blog
-url: "https://chiachun2491.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://b.cch.nctu.me" # the base hostname & protocol for your site
 github_username:  chiachun2491
 
 # Build settings
